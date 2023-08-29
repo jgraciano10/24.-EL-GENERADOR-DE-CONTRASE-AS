@@ -1,0 +1,51 @@
+html{
+    height: 100%;
+    margin: 0;
+    min-height: 100%;
+}
+
+body{
+    background: linear-gradient(#0077b6,#00b4d8 );
+    max-width: 1200px;
+    height: 100%;
+    max-height: 3000px;
+}
+div.boton{
+    padding: 10px;
+    margin: 50px auto; 
+    width: 30%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction : column;
+}
+
+div.boton p{
+    font-size: 1.5rem;
+}
+
+div.boton button{
+    padding: 30px;
+    margin: auto;
+    border: 20px solid #22333b;
+    border-radius: 60px;
+    cursor: pointer;
+    background-color: red;
+}
+
+
+div.boton button:hover{
+    background-color: crimson;
+}
+
+#escribir{
+    margin: auto;
+    width: 30%;
+    height: 10%;
+    background-color: aliceblue;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
